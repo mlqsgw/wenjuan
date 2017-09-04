@@ -1,0 +1,1100 @@
+[ 2017-09-04T08:40:58+08:00 ] ::1 /wenjuan/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T08:41:01+08:00 ] ::1 /wenjuan/index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T08:41:22+08:00 ] ::1 /wenjuan/index.php/home/index/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `account` = 'admin13' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0220s ]
+
+[ 2017-09-04T08:41:22+08:00 ] ::1 /wenjuan/index.php/home/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T08:41:22+08:00 ] ::1 /wenjuan/index.php/home/index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T08:41:23+08:00 ] ::1 /wenjuan/index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant user_type - assumed 'user_type' D:\phpStudy\WWW\wenjuan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T08:41:23+08:00 ] ::1 /wenjuan/index.php/home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T08:42:17+08:00 ] ::1 /wenjuan/index.php/home/index/yjkh_list_oneself.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user_yjkh` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_user_yjkh` WHERE `is_del` = 0 AND `appraiser_id` = '14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_user_yjkh` WHERE `is_del` = 0 AND `appraiser_id` = '14' LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='36' ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `is_del` = 0 AND `assess_type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `is_del` = 0 AND `assess_type` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T08:42:22+08:00 ] ::1 /wenjuan/index.php/home/index/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T08:42:22+08:00 ] ::1 /wenjuan/index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T08:42:27+08:00 ] ::1 /wenjuan/index.php/home/index/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `account` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-04T08:42:27+08:00 ] ::1 /wenjuan/index.php/home/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T08:42:27+08:00 ] ::1 /wenjuan/index.php/home/index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T08:42:27+08:00 ] ::1 /wenjuan/index.php/home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T08:42:29+08:00 ] ::1 /wenjuan/index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T10:08:16+08:00 ] ::1 /wenjuan/index.php/home/index/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T10:08:16+08:00 ] ::1 /wenjuan/index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T10:08:21+08:00 ] ::1 /wenjuan/index.php/home/index/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `account` = 'admin13' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-04T10:08:21+08:00 ] ::1 /wenjuan/index.php/home/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T10:08:21+08:00 ] ::1 /wenjuan/index.php/home/index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T10:08:22+08:00 ] ::1 /wenjuan/index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant user_type - assumed 'user_type' D:\phpStudy\WWW\wenjuan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T10:08:22+08:00 ] ::1 /wenjuan/index.php/home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T10:08:27+08:00 ] ::1 /wenjuan/index.php/home/index/yjkh_list_oneself.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user_yjkh` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_user_yjkh` WHERE `is_del` = 0 AND `appraiser_id` = '14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_user_yjkh` WHERE `is_del` = 0 AND `appraiser_id` = '14' LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='36' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `is_del` = 0 AND `assess_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `is_del` = 0 AND `assess_type` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T10:08:30+08:00 ] ::1 /wenjuan/index.php/home/index/user_yjkh_type_list.html?assess_type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `is_del` = 0 AND `assess_type` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\wenjuan\Application\Runtime\Cache\Home\77aea6b69fb9f2641cdd507817e156a7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T10:08:33+08:00 ] ::1 /wenjuan/index.php/home/index/user_yjkh_add.html?id=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1216 行.
+NOTIC: [8] Undefined variable: assess_type D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant yjkh_list_oneself - assumed 'yjkh_list_oneself' D:\phpStudy\WWW\wenjuan\Application\Runtime\Cache\Home\100f2b76c6216461db92a025bb89745d.php 第 235 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T10:08:47+08:00 ] ::1 /wenjuan/index.php/home/index/user_yjkh_add_do.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: peer_assessment_one D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1267 行.
+NOTIC: [8] Undefined index: peer_assessment_two D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1269 行.
+NOTIC: [8] Undefined index: peer_assessment_three D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1271 行.
+NOTIC: [8] Undefined index: peer_assessment_four D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1273 行.
+NOTIC: [8] Undefined index: peer_assessment_one_xw D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1276 行.
+NOTIC: [8] Undefined index: peer_assessment_two_xw D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1278 行.
+NOTIC: [8] Undefined index: peer_assessment_three_xw D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1280 行.
+SQL: SHOW COLUMNS FROM `wenjuan_user_yjkh` [ RunTime:0.0050s ]
+SQL: INSERT INTO `wenjuan_user_yjkh` (`appraiser_id`,`by_appraiser_id`,`yjkh_id`,`assess_type`,`self_assessment_one`,`peer_assessment_one`,`self_assessment_two`,`peer_assessment_two`,`self_assessment_three`,`peer_assessment_three`,`self_assessment_four`,`peer_assessment_four`,`self_assessment_one_xw`,`peer_assessment_one_xw`,`self_assessment_two_xw`,`peer_assessment_two_xw`,`self_assessment_three_xw`,`peer_assessment_three_xw`,`score_total`,`score_total_xw`,`create_time`) VALUES ('14','14','35','1','1',NULL,'2',NULL,'2',NULL,'2',NULL,'2',NULL,'2',NULL,'2',NULL,'2','2','1504490927') [ RunTime:0.0000s ]
+
+[ 2017-09-04T10:08:48+08:00 ] ::1 /wenjuan/index.php/home/index/yjkh_list_oneself.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user_yjkh` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_user_yjkh` WHERE `is_del` = 0 AND `appraiser_id` = '14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_user_yjkh` WHERE `is_del` = 0 AND `appraiser_id` = '14' LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='36' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='35' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `is_del` = 0 AND `assess_type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `is_del` = 0 AND `assess_type` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T10:34:13+08:00 ] ::1 /wenjuan/index.php/home/index/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T10:34:13+08:00 ] ::1 /wenjuan/index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T10:34:18+08:00 ] ::1 /wenjuan/index.php/home/index/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `account` = 'admin2' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-04T10:34:18+08:00 ] ::1 /wenjuan/index.php/home/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T10:34:18+08:00 ] ::1 /wenjuan/index.php/home/index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T10:34:19+08:00 ] ::1 /wenjuan/index.php/home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T10:34:19+08:00 ] ::1 /wenjuan/index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant user_type - assumed 'user_type' D:\phpStudy\WWW\wenjuan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T10:34:21+08:00 ] ::1 /wenjuan/index.php/home/index/yjkh_list_oneself.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user_yjkh` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_user_yjkh` WHERE `is_del` = 0 AND `appraiser_id` = '2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_user_yjkh` WHERE `is_del` = 0 AND `appraiser_id` = '2' LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='35' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='36' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='36' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `is_del` = 0 AND `assess_type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `is_del` = 0 AND `assess_type` = 2  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T10:34:22+08:00 ] ::1 /wenjuan/index.php/home/index/user_yjkh_type_list.html?assess_type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `is_del` = 0 AND `assess_type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\wenjuan\Application\Runtime\Cache\Home\77aea6b69fb9f2641cdd507817e156a7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T10:34:26+08:00 ] ::1 /wenjuan/index.php/home/index/yjkh_list_oneself.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user_yjkh` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_user_yjkh` WHERE `is_del` = 0 AND `appraiser_id` = '2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_user_yjkh` WHERE `is_del` = 0 AND `appraiser_id` = '2' LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='35' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='36' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='36' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `is_del` = 0 AND `assess_type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `is_del` = 0 AND `assess_type` = 2  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T10:34:27+08:00 ] ::1 /wenjuan/index.php/home/index/user_yjkh_type_list.html?assess_type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `is_del` = 0 AND `assess_type` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\wenjuan\Application\Runtime\Cache\Home\77aea6b69fb9f2641cdd507817e156a7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T10:34:29+08:00 ] ::1 /wenjuan/index.php/home/index/yjkh_details.html?id=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `id` = 36 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenjuan_department` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wenjuan_department` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T10:34:36+08:00 ] ::1 /wenjuan/index.php/home/index/user_yjkh_add.html?id=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1216 行.
+NOTIC: [8] Undefined variable: assess_type D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant yjkh_list_oneself - assumed 'yjkh_list_oneself' D:\phpStudy\WWW\wenjuan\Application\Runtime\Cache\Home\100f2b76c6216461db92a025bb89745d.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T10:34:53+08:00 ] ::1 /wenjuan/index.php/home/index/yjkh_details.html?id=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `id` = 36 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenjuan_department` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wenjuan_department` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T10:34:56+08:00 ] ::1 /wenjuan/index.php/home/index/user_yjkh_add.html?id=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1216 行.
+NOTIC: [8] Undefined variable: assess_type D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant yjkh_list_oneself - assumed 'yjkh_list_oneself' D:\phpStudy\WWW\wenjuan\Application\Runtime\Cache\Home\100f2b76c6216461db92a025bb89745d.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T10:35:43+08:00 ] ::1 /wenjuan/index.php/home/index/user_yjkh_add.html?id=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1216 行.
+NOTIC: [8] Undefined variable: assess_type D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant yjkh_list_oneself - assumed 'yjkh_list_oneself' D:\phpStudy\WWW\wenjuan\Application\Runtime\Cache\Home\100f2b76c6216461db92a025bb89745d.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T10:35:56+08:00 ] ::1 /wenjuan/index.php/home/index/yjkh_details.html?id=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `id` = 36 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenjuan_department` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wenjuan_department` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T10:36:05+08:00 ] ::1 /wenjuan/index.php/home/index/user_yjkh_add.html?id=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1216 行.
+NOTIC: [8] Undefined variable: assess_type D:\phpStudy\WWW\wenjuan\Application\Home\Controller\IndexController.class.php 第 1217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant yjkh_list_oneself - assumed 'yjkh_list_oneself' D:\phpStudy\WWW\wenjuan\Application\Runtime\Cache\Home\100f2b76c6216461db92a025bb89745d.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T10:36:08+08:00 ] ::1 /wenjuan/index.php/home/index/yjkh_list_oneself.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user_yjkh` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenjuan_user_yjkh` WHERE `is_del` = 0 AND `appraiser_id` = '2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_user_yjkh` WHERE `is_del` = 0 AND `appraiser_id` = '2' LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='35' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='36' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='36' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wenjuan_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `is_del` = 0 AND `assess_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE `is_del` = 0 AND `assess_type` = 2  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T10:36:15+08:00 ] ::1 /wenjuan/index.php/home/index/user_yjkh_edit.html?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user_yjkh` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wenjuan_user_yjkh` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='36' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\wenjuan\Application\Runtime\Cache\Home\bfb444c3799b2f349a917d372b17ad63.php 第 64 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\wenjuan\Application\Runtime\Cache\Home\bfb444c3799b2f349a917d372b17ad63.php 第 69 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\wenjuan\Application\Runtime\Cache\Home\bfb444c3799b2f349a917d372b17ad63.php 第 74 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\wenjuan\Application\Runtime\Cache\Home\bfb444c3799b2f349a917d372b17ad63.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T10:37:03+08:00 ] ::1 /wenjuan/index.php/home/index/user_yjkh_edit.html?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user_yjkh` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wenjuan_user_yjkh` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_yjkh` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='36' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenjuan_yjkh` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenjuan_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username` FROM `wenjuan_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

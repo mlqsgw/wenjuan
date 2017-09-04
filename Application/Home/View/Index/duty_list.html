@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="__ROOT__/Public/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__ROOT__/Public/css/jquery.monthpicker.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="__ROOT__/Public/js/jquery.js"></script>
+<!-- <script type="text/javascript" src="__ROOT__/Public/js/showdate.js"></script> -->
+<script type="text/javascript" src="__ROOT__/Public/js/showdate.js"></script>
+<script type="text/javascript" src="__ROOT__/Public/js/jquery.monthpicker.js"></script>
+<script type="text/javascript" src="__ROOT__/Public/js/layer/layer.js"></script>
+
+
+<style>  
+    .pages a,  
+    .pages span {  
+        display: inline-block;  
+        padding: 2px 5px;  
+        margin: 0 1px;  
+        border: 1px solid #f0f0f0;  
+        -webkit-border-radius: 3px;  
+        -moz-border-radius: 3px;  
+        border-radius: 3px;  
+    }  
+      
+    .pages a,  
+    .pages li {  
+        display: inline-block;  
+        list-style: none;  
+        text-decoration: none;  
+        color: #58A0D3;  
+    }  
+      
+    .pages a.first,  
+    .pages a.prev,  
+    .pages a.next,  
+    .pages a.end {  
+        margin: 0;  
+    }  
+      
+    .pages a:hover {  
+        border-color: #50A8E6;  
+    }  
+      
+    .pages span.current {  
+        background: #50A8E6;  
+        color: #FFF;  
+        font-weight: 700;  
+        border-color: #50A8E6;  
+    }  
+</style>  
+
+</head>
+
+
+<body>
+
+	<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">用户管理</a></li>
+    <li><a href="#">职务列表</a></li>
+    </ul>
+    </div>
+    
+    <div class="rightinfo">
+    
+    <div class="tools">
+    
+    	<ul class="toolbar">
+        <!-- <li class="click" id="yjkh_look"><span><img src="__ROOT__/Public/images/t01.png" /></span>添加</li> -->
+        <li class="click" id="add_button"><a href="#"><span><img src="__ROOT__/Public/images/t01.png" /></span>添加</a></li>
+        
+        <!-- <li><span><img src="__ROOT__/Public/images/t03.png" /></span>删除</li> -->
+        <!-- <li><span><img src="__ROOT__/Public/images/t04.png" /></span>统计</li> -->
+        </ul>
+        
+        <!-- <ul class="toolbar">
+            <li class="click"><a href="{:u('payExport')}"><span></span>导出Excel</a></li>
+        </ul> -->
+    </div>
+    
+    
+    <table class="tablelist">
+    	<thead>
+    	<tr>
+        <th><input name="" type="checkbox" value="" checked="checked"/></th>
+        <th>编号</th>
+        <th>所属部门</th>
+        <th>职务名称</th>
+        <th>创建时间</th>
+        <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <volist name="list" id= "vo">
+        <tr>
+        <td><input name="" type="checkbox" value="" /></td>
+        <td>{$vo.id}</td>
+        <td>{$vo.department_data.department_name}</td>
+        <td>{$vo.duty_name}</td>
+        <td>{$vo.create_time|date="Y-m-d H:i:s", ###}</td>
+        <td><a href="#" class="duty_edit" duty_edit_id = {$vo.id}>编辑</a>|<a href="#" class="duty_del" duty_del_id = {$vo.id}>删除</a></td>
+        </tr> 
+        </volist>
+        </tbody>
+    </table>
+    
+    <div class="pages">
+        {$page}
+    </div>
+    
+    </div>
+    
+    <script type="text/javascript">
+
+       $(".duty_edit").click(function(){
+            var edit_id = $(this).attr("duty_edit_id");
+            var url3 = "{:u('duty_edit')}?id=" + edit_id;
+            layer.open({
+                type : 2,
+                title : "绩绩考核编辑",
+                area : ['1210px', '90%'],
+                content : url3,
+                end : function(){
+                    location.reload();
+                }
+            });
+       });
+
+       $(".duty_del").click(function(){
+            var del_id = $(this).attr("duty_del_id");
+            $.ajax({
+                type : "POST",
+                url : "{:u('duty_del')}",
+                data : {id : del_id},
+                dataType : 'json',
+                success : function(data){
+                    if(data['status']){
+                        layer.open({
+                            content : "删除成功",
+                            btn : ['确定'],
+                            yes : function(){
+                                location.href = "{:u('duty_list')}";
+                            }
+                        });
+                    } else {
+                        layer.open({
+                            content : "删除失败",
+                            btn : ['确定'],
+                            yes : function(){
+                                location.href = "{:u('duty_list')}";
+                            }
+                        });
+                        
+                    }
+                }
+            });
+       });
+
+       $("#add_button").click(function(){
+            var url = "{:u('duty_add')}";
+            layer.open({
+                type : 2,
+                title : "部门添加页面",
+                area : ['800px', '90%'],
+                content :url,
+                end : function(){
+                    location.reload();
+                }
+            });
+       });
+	</script>
+
+</body>
+
+</html>
